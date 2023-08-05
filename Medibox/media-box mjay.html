@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Media</title>
+</head>
+<body class="blue-grey darken-4">
+    <div class="container">
+        <div class="row">
+            <span class="center">
+                <h1 class="head">Media</h1>
+            </span>
+        </div>
+        <div class="divider"></div>
+        <p>Media components include things that have to do with large media objects like Images, Video, Audio, etc.</p>
+        <br>
+        <div class="row">
+            <div class="col s10">
+                <h2>Material Box</h2>
+                <p>Material box is a material design implementation of the Lightbox plugin. When a user clicks on an image that can be enlarged, Material box centers the image and enlarges it in a smooth, non-jarring manner. To dismiss the image, the user can either click on the image again, scroll away, or press the ESC key.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <img src="images/anime1.jpg" alt="" class="responsive-img materialboxed">
+                <p>Creating the above image with the effect is as simple as adding a materialboxed class to the image tag.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s11">
+                <h3>Options</h3>
+                <table class="striped resposive-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>inDuration</td>
+                            <td>Number</td>
+                            <td>275</td>
+                            <td>Transition in duration in milliseconds.</td>
+                        </tr>
+                        <tr>
+                            <td>outDuration</td>
+                            <td>Number</td>
+                            <td>200</td>
+                            <td>Transition out duration in milliseconds.</td>
+                        </tr>
+                        <tr>
+                            <td>onOpenStart</td>
+                            <td>Function</td>
+                            <td>null</td>
+                            <td>Callback function called before materialbox is opened.</td>
+                        </tr>
+                        <tr>
+                            <td>onOpenEnd</td>
+                            <td>Function</td>
+                            <td>null</td>
+                            <td>Callback function called after materialbox is opened.</td>
+                        </tr>
+                        <tr>
+                            <td>onCloseStart</td>
+                            <td>Function</td>
+                            <td>null</td>
+                            <td>Callback function called before materialbox is closed.</td>
+                        </tr>
+                        <tr>
+                            <td>onCloseEnd</td>
+                            <td>Function</td>
+                            <td>null</td>
+                            <td>Callback function called after materialbox is closed.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>   
+    </div>
+    <br><br>
+    <div class="container">  
+        <div class="row">
+            <div class="col s11">
+                <h2>Slider</h2>
+                <p>Our slider is a simple and elegant image carousel. You can also have captions that will be transitioned on their own depending on their alignment. You can also have indicators that show up on the bottom of the slider.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s11">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/anime2.jpg" alt="">
+                        <div class="caption center-align">
+                            <h3>This is our big Tagline!</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/anime3.jpeg" alt="">
+                        <div class="caption left-align">
+                            <h3>Left Aligned Caption</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/anime4.jpg" alt="">
+                        <div class="caption right-align">
+                            <h3>Right Aligned Caption</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/anime5.png" alt="">
+                        <div class="caption center-align">
+                            <h3>This is our big Tagline!</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s11">
+                <h3>Options</h3>
+                <table class="striped resposive-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>indicators</td>
+                            <td>Boolean</td>
+                            <td>true</td>
+                            <td>Set to false to hide slide indicators.</td>
+                        </tr>
+                        <tr>
+                            <td>height</td>
+                            <td>Number</td>
+                            <td>400</td>
+                            <td>Set height of slider.</td>
+                        </tr>
+                        <tr>
+                            <td>duration</td>
+                            <td>Number</td>
+                            <td>500</td>
+                            <td>Set the duration of the transition animation in ms.</td>
+                        </tr>
+                        <tr>
+                            <td>interval</td>
+                            <td>Number</td>
+                            <td>6000</td>
+                            <td>Set the duration between transitions in ms.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> 
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+         <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //materialboxed
+            $('.materialboxed').materialbox({
+                inDuration: 400, 
+                outDuration: 300
+            });
+            //slider
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                duration: 700,
+                interval: 2100
+            }   
+            );
+        });
+    </script>
+            
+</body>
+</html>
