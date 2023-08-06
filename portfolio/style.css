@@ -1,0 +1,50 @@
+
+
+.brand-icons{
+    padding: 0 15px;
+}
+
+.brand-name{
+    font-weight: bold;
+}
+
+.nav-link{
+    margin-left: 210px;
+    font-weight: 500;
+}
+
+.section-users{
+    background:#040404;
+    color:#050505;
+}
+
+nav a:hover {
+  background-color: #060606;
+}
+.circle{
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: blue;
+}
+img.cir{
+    
+    float: left;
+    margin-left: 50px;
+    margin-top: 2px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: blue;
+}
+.para{
+    float:right;   
+    font-size: 40px;           
+    text-align: right;         
+    
+}
