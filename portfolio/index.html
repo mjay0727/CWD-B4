@@ -19,55 +19,60 @@
         <nav class="white">
             <div class="nav-wrapper">
                 <div class="container">
-                    <img src="images/AUTODESK.png" alt=""width="150" class="responsive-img materialboxed">
-                <span class="dark-text text-darken-1 brand-name">MCG</span>
-                <ul class="right hide-on-med-and-down nav-link">
-                    <li><a href="" class="brown-text">Contact</a>
-                    </li>
-                    <li><a href="" class="brown-text">Finished Projects</a>
-                    </li>
-                    <li><a href="" class="brown-text">Systems</a>
-                    </li>
-                    <li><a href="" class="brown-text">Sample Works</a>
-                    </li>
-                    <li class="hide-on-small-only">
+                    <div class="row">
+                        <div class="col s12 m11">
+                            <img src="images/img1.png" alt="" width="130">
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="brown-text">HOME</a></li>
+                            <li><a href="system.html" class="brown-text">SYSTEMS</a></li>
+                            <li><a href="finished.html" class="brown-text">FINISHED PROJECT</a></li>
+                            <li><a href="sample.html" class="brown-text">SAMPLE WORKS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </nav>
     </div>
     <section class="section section-users center">
-      <div class="container">
-      </div>
-  </section>
-  <br><br><br><br><br>
-    <div class="row">
-      <div class="col s12 m4 center">
-          <div class="section">
-              <span>
-                  <p class="para">The Medium Card limits the height of the card to 400px.</p>
-              </span>
-          </div>
-          
-      </div>
-      <div class="col s12 m8">
-          <img src="images/mjay.jpg" alt="" class="circle">
-          
-      </div>
-  </div>
-  <br>
-  <div class="row">
-      <div class="col s6">
-          <img src="images/mjay.jpg" alt="" class="cir">
-          
-      </div>
-      <div class="col s6 center">
-          <div class="section">
-              <span>
-                  <p class="para">The Medium Card limits the height of the card to 400px.</p>
-              </span>
-          </div>
-      </div>
-  </div>
-    
+    </section>
+    <br><br><br><br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <h3>HI! I'M A CAD DESIGNER IN 3D AND 2D MODELING</h3>
+                <p class="para">a CAD designer specializing in FDAS, BMS, CCTV, ACS, and CATV systems. With an engineering background and an artistic touch, I bring these concepts to life with meticulous digital designs. Explore my portfolio to witness how I enhance and optimize each system, from layout to implementation. Thanks for visiting!</p>
+            </div>
+            <div class="col s12 m6">
+                <img src="images/img4.jpg" alt="" class="circle">
+            </div>
+        </div>
+        <br><br><br>
+        <div class="divider">
+        </div>
+        
+        
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/img8.jpg"></div>
+    </div>
+    <div style="height: 100px;"></div>
+    <footer class="page-footer black">
+        <div class="row">
+            <div class="col s12">
+            <h5 class="white-text">CONTACTS</h5>
+            <p class="grey-text text-lighten-4"> EMAIL: mjaygabrillo28@gmail.com | techDrawingsCAD@gmail.com</p>
+            <p class="grey-text text-lighten-4"> VIBER: +63-9772-1504-72</p>
+            <p class="grey-text text-lighten-4"> WHATSAPP: +63-9772-1504-72</p>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2023 All rights reserved to Tech Drawings CAD.
+        </div>
+    </div>
+    </footer>
     
 
 
@@ -78,5 +83,17 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+    </script>
 </body>
 </html>

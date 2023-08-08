@@ -23,10 +23,10 @@ nav a:hover {
 }
 .circle{
     float: left;
-    margin-left: 125px;
+    margin-left: 100px;
     margin-top: 20px;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     border-radius: 100%;
     overflow: hidden;
     background-color: blue;
@@ -44,7 +44,26 @@ img.cir{
 }
 .para{
     float:right;   
-    font-size: 40px;           
-    text-align: right;         
+    font-size: 20px;           
+    text-align:justify;         
     
 }
+.section
+{
+    text-align:right;
+}
+h3, h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:justify;
+}
+.slides{
+    width: 100%;
+    overflow: hidden;
+}
+.slides img{
+    width: 5%;
+    height: auto;
+}
+
+    
+

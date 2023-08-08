@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Materal icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Drop box</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="white">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m11">
+                            <img src="images/img1.png" alt="" width="130">
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="brown-text">HOME</a></li>
+                            <li><a href="system.html" class="brown-text">SYSTEMS</a></li>
+                            <li><a href="finished.html" class="brown-text">FINISHED PROJECT</a></li>
+                            <li><a href="sample.html" class="brown-text">SAMPLE WORKS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+    </div>
+    <section class="section section-users center">
+    </section>
+    <br><br>
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/img36.jpg"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1>SAMPLE WORKS</h1>
+                <div class="carousel carousel-slider center white">
+                    
+                    <div class="carousel-item white white-text" href="#one!">
+                        <img src="images/img29.jpg" alt="">
+                    </div>
+                    <div class="carousel-item white white-text" href="#one!">
+                        <img src="images/img30.jpg" alt="">
+                    </div>
+                    <div class="carousel-item white white-text" href="#one!">
+                        <img src="images/img31.jpg" alt="">
+                    </div>
+                    <div class="carousel-item white white-text" href="#one!">
+                        <img src="images/img32.jpg" alt="">
+                    </div>
+                    <div class="carousel-item white white-text" href="#one!">
+                        <img src="images/img33.jpg" alt="">
+                    </div>
+                </div>
+                <p class="para">In this collection of CAD sample drawings, I present a diverse range of meticulously crafted designs. These drawings exemplify the precision and attention to detail that CAD software allows. The architectural drawings showcase innovative building designs, highlighting clean lines and thoughtful spatial planning. The mechanical engineering drawings exhibit intricate components and assembly instructions, demonstrating the ability to create complex structures with accuracy. Additionally, the electrical schematics demonstrate the proficiency in creating organized and efficient electrical systems. Each drawing in this collection exemplifies the power of CAD in bringing ideas to life, demonstrating a mastery of the software and a passion for design and engineering.</p>
+            </div>
+        </div>
+        <br><br><br>
+        <h4>For CAD samples and specific inquiries, please don't hesitate to reach out to me using the provided contact details.</h4>
+        
+        
+    </div>
+    
+    <div style="height: 100px;"></div>
+    <footer class="page-footer black">
+        <div class="row">
+            <div class="col s12">
+            <h5 class="white-text">CONTACTS</h5>
+            <p class="grey-text text-lighten-4"> EMAIL: mjaygabrillo28@gmail.com | techDrawingsCAD@gmail.com</p>
+            <p class="grey-text text-lighten-4"> VIBER: +63-9772-1504-72</p>
+            <p class="grey-text text-lighten-4"> WHATSAPP: +63-9772-1504-72</p>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2023 All rights reserved to Tech Drawings CAD.
+        </div>
+    </div>
+    </footer>
+    
+    <!-- Jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, options);
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems, options);
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems, options);
+    });
+
+    $(document).ready(function(){
+    $('.parallax').parallax({
+        height:100
+    });
+    $('.modal').modal();
+    $('.carousel').carousel({
+            indicators: true,
+            height: 500,
+            fullWidth: true
+        });
+    
+        
+    });
+    </script>
+</body>
+</html>
